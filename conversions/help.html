@@ -29,9 +29,10 @@
                 <!-- FAQ Section -->
                 <h4>Frequently Asked Questions</h4>
                 <ul class="text-secondary">
-                    <li><strong>How can I reset my conversion input?</strong> You can reset the input by tapping the clear button in the conversion editor.</li>
-                    <li><strong>Is there a character limit?</strong> Yes, there is a limit of 15 digits, excluding decimal points and thousand separators.</li>
+                    <li><strong>Is there a character limit?</strong> Yes, there is a limit of 15 significant digits total (combined digits before and after the decimal point) to ensure calculation accuracy.</li>
                     <li><strong>How does rounding work?</strong> When the &ldquo;Round Results&rdquo; option is enabled, Conversions uses arithmetic rounding to round numbers to the nearest whole number.</li>
+                    <li><strong>How does Conversions handle large numbers?</strong> Conversion results are displayed in full without any decimal places when they&rsquo;re whole numbers, and with up to 12 decimal places when they include a fractional part.</li>
+                    <li><strong>How does Conversions handle small numbers?</strong> Conversions shows up to 12 decimal places for precise results. For numbers smaller than 0.000000000001 Conversions shows "&asymp; 0" (approximately zero) to indicate that the actual number is very small but non-zero.</li>
                     <li><strong>Can I use scientific notation?</strong> Currently, scientific notation is supported for numbers up to 15 digits long (for example 1.23E+14).</li>
                     <li><strong>Can I share my conversions?</strong> Yes, you can share your conversions via text or email using the Share options in the toolbar menu.</li>
                 </ul>
