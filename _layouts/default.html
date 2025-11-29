@@ -2,7 +2,11 @@
 <html lang="en" data-bs-theme="auto">
 <head>
     <title>{{ page.title | default: site.title }}</title>
+    <meta name="keywords" content="{{ page.keywords | default: site.keywords }}">
+    <meta name="description" content="{{ page.description | default: site.description }}">
+    <meta name="author" content="{{ site.author | default: 'Piotr Bakker' }}">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <meta charset="UTF-8">
 
     {% if page.app and site.data.apps[page.app] %}
         <meta name="apple-itunes-app" content="app-id={{ site.data.apps[page.app].app_id }}">
