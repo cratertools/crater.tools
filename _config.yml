@@ -1,0 +1,19 @@
+title: Crater Tools &middot; iOS Apps
+description: Native iOS apps designed to smash through life&rsquo;s most basic problems.
+author: Piotr Bakker
+location: "San Francisco, CA"
+keywords: iOS, Apple, Mobile App
+baseurl: ""
+url: "https://crater.tools"
+github:
+  username: cratertools
+  repository: crater.tools
+
+markdown: kramdown
+
+exclude:
+  - Gemfile
+  - Gemfile.lock
+  - README.md
+  - vendor/
+  - _site/
