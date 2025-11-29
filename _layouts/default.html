@@ -18,45 +18,10 @@
     </script>
 </head>
 <body>
-    <nav class="navbar navbar-expand-lg bg-body-tertiary">
-        <div class="container">
-            <a class="navbar-brand fw-bold" href="/">Crater Tools</a>
-            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
-                <span class="navbar-toggler-icon"></span>
-            </button>
-            <div class="collapse navbar-collapse" id="navbarNav">
-                <ul class="navbar-nav ms-auto">
-                    <li class="nav-item dropdown">
-                        <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">Apps</a>
-                    <ul class="dropdown-menu">
-                        <li><a class="dropdown-item" href="/calmetric">Calmetric</a></li>
-                        <li><a class="dropdown-item" href="/conversions">Conversions</a></li>
-                        <li><a class="dropdown-item" href="/codifier">Codifier</a></li>
-                    </ul>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="mailto:hello@crater.tools">Contact</a>
-                    </li>
-                </ul>
-            </div>
-        </div>
-    </nav>
+    {% include navbar.html %}
 
     {{ content }}
 
-    <footer class="bg-body-tertiary py-4 mt-5">
-        <div class="container">
-            <div class="row">
-                <div class="col-md-6 text-center text-md-start mb-3 mb-md-0">
-                    <p class="text-secondary mb-0">Built in San Francisco by <a href="https://piotrbakker.com" target="_blank">Piotr Bakker</a></p>
-                </div>
-                <div class="col-md-6 text-center text-md-end">
-                    <a href="/calmetric" class="text-secondary text-decoration-none me-3">Calmetric</a>
-                    <a href="/conversions" class="text-secondary text-decoration-none me-3">Conversions</a>
-                    <a href="/codifier" class="text-secondary text-decoration-none">Codifier</a>
-                </div>
-            </div>
-        </div>
-    </footer>
+    {% include footer.html %}
 </body>
 </html>
