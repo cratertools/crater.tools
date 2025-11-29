@@ -1,2 +1,9 @@
 # OS-Generated Files
 .DS_Store
+
+# Jekyll
+_site/
+
+# Compiled CSS
+css/custom-styles.css
+css/custom-styles.css.map
