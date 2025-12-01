@@ -3,29 +3,122 @@ layout: default
 title: Crater Tools · Conversions
 app: conversions
 ---
-<div class="container px-4 py-lg-5 mt-4 mb-4 ">
+<div class="container px-4 py-lg-5 my-4">
     <div class="row justify-content-center">
-        <div class="col-md-10 col-xl-8">
-            <div class="mb-5">
-                <h1 class="display-4 fw-bold mb-4">Conversions</h1>
-                <p class="lead text-secondary mb-4">
-                    {{ site.data.apps[page.app].description }}
-                </p>
-                <a href="{{ site.data.apps[page.app].app_store_url }}" class="btn btn-primary btn-lg mb-4">Download on the App Store</a>
+
+        <div class="col-12 col-xl-10 mb-5">
+            <div class="rounded-4 py-4">
+                <div class="row align-items-center">
+                    <div class="col-md-6 text-center text-md-start mb-2 mb-md-0">
+                        <h1 class="display-4 fw-bold mb-2">Conversions</h1>
+                        <p class="text-body-secondary lead">{{ site.data.apps[page.app].description }}</p>
+                        <a href="{{ site.data.apps[page.app].app_store_url }}" class="btn btn-primary btn-lg mb-4">Download on the App Store</a>
+                    </div>
+                    <div class="col-md-6 text-center">
+                        <picture>
+                            <source srcset="../assets/img/content.dark-conversions-app-highlight-full-w450h920@3x.png"
+                                    media="(prefers-color-scheme: dark)">
+                            <img src="../assets/img/content.light-conversions-app-highlight-full-w450h920@3x.png"
+                                 alt="iPhone, screen showing the Convert view of the Conversions app"
+                                 class="img-fluid"
+                                 style="max-width: 280px">
+                        </picture>
+                    </div>
+                </div>
             </div>
-            <h2>Screenshots</h2>
-            <figure class="figure">
-                <picture>
-                    <img class="img-fluid rounded-3" alt="Screenshot of Codifier's main features." src="../assets/img/content.light-conversions-app-screenshots-w1920h1080.png">
-                </picture>
-            </figure>
-            <h2>Support</h2>
-            <p class="text-secondary">
-                <p><a href="/conversions/help">Conversions Help Center</a></p>
-            </p>
-            <h2>Legal</h2>
-            <p><a href="/conversions/terms-of-service">Conversions Terms of Service</a></p>
-            <p><a href="/conversions/privacy-policy">Conversions Privacy Policy</a></p>
+        </div>
+
+        <div class="col-12 col-xl-10 mb-5">
+            <div class="row align-items-center">
+                <div class="col text-center">
+                    <h1 class="display-6 fw-bold mb-5">Features</h1>
+                </div>
+            </div>
+
+            <div class="row row-cols-1 row-cols-lg-2 g-3 g-lg-4">
+                <div class="col">
+                    <div class="card h-100 p-2 p-lg-3 rounded-4">
+                        <div class="card-body">
+                            <i class="ph ph-arrows-clockwise fs-2 text-style-primary"></i>
+                            <h3 class="card-title fw-bold">Convert Units</h3>
+                            <p class="card-text fs-6 text-secondary">Convert to and from over 100 units of measurement.</p>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col">
+                    <div class="card h-100 p-2 p-lg-3 rounded-4">
+                        <div class="card-body">
+                            <i class="ph ph-function fs-2 text-style-primary"></i>
+                            <h3 class="card-title fw-bold">See Formulas</h3>
+                            <p class="card-text fs-6 text-secondary">View the exact formulas behind each conversion.</p>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col">
+                    <div class="card h-100 p-2 p-lg-3 rounded-4">
+                        <div class="card-body">
+                            <i class="ph ph-book-open-text fs-2 text-style-primary"></i>
+                            <h3 class="card-title fw-bold">Get Unit Details</h3>
+                            <p class="card-text fs-6 text-secondary">Look up unit symbols, systems, and conversion formulas.</p>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col">
+                    <div class="card h-100 p-2 p-lg-3 rounded-4">
+                        <div class="card-body">
+                            <i class="ph ph-apple-logo fs-2 text-style-primary"></i>
+                            <h3 class="card-title fw-bold">Built for iOS</h3>
+                            <p class="card-text fs-6 text-secondary">Native iOS design, using Apple’s latest frameworks and UI guidelines.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="col-12 col-xl-10">
+            <div class="row align-items-center">
+                <div class="col text-center">
+                    <h1 class="display-6 fw-bold mb-5">Resources</h1>
+                </div>
+            </div>
+
+            <div class="row row-cols-1 g-3 g-lg-4">
+                <div class="col">
+                    <div class="card h-100 p-2 p-lg-3 rounded-4">
+                        <div class="card-body">
+                            <i class="ph ph-lifebuoy fs-2 text-style-primary"></i>
+                            <h3 class="card-title fw-bold">Help Center</h3>
+                            <p class="card-text fs-6 text-secondary">Need a hand with anything? We are here to help.</p>
+                            <a href="/conversions/help" class="card-link link-body-emphasis link-offset-2 link-underline-opacity-25 link-underline-opacity-75-hover">Get Help</a>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col">
+                    <div class="card h-100 p-2 p-lg-3 rounded-4">
+                        <div class="card-body">
+                            <i class="ph ph-scroll fs-2 text-style-primary"></i>
+                            <h3 class="card-title fw-bold">Terms of Service</h3>
+                            <p class="card-text fs-6 text-secondary">Here’s what you agree to when using Conversions.</p>
+                            <a href="/conversions/terms-of-service" class="card-link link-body-emphasis link-offset-2 link-underline-opacity-25 link-underline-opacity-75-hover">Read More</a>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col">
+                    <div class="card h-100 p-2 p-lg-3 rounded-4">
+                        <div class="card-body">
+                            <i class="ph ph-lock-simple fs-2 text-style-primary"></i>
+                            <h3 class="card-title fw-bold">Privacy Policy</h3>
+                            <p class="card-text fs-6 text-secondary">Conversions does not track or store your personal data in any shape or form.</p>
+                            <a href="/conversions/privacy-policy" class="card-link link-body-emphasis link-offset-2 link-underline-opacity-25 link-underline-opacity-75-hover">Read More</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
         </div>
     </div>
 </div>
