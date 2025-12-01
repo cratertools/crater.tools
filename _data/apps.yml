@@ -1,14 +1,17 @@
 calmetric:
+    name: "Calmetric"
     app_id: "6744656593"
     app_store_url: "https://apps.apple.com/app/id6744656593"
     description: "Calmetric helps you gain practical insights into the calendar year. Use Calmetric to track the year&rsquo;s progress, explore different timeframes, and make more informed planning decisions."
 
 conversions:
+    name: "Conversions"
     app_id: "6741049598"
     app_store_url: "https://apps.apple.com/app/id6741049598"
     description: "Conversions helps you convert different units of measurement, including units of temperature, weight, or length. Easily convert to and from any unit, look up conversion formulas, and share results with others."
 
 codifier:
+    name: "Codifier"
     app_id: "6737922796"
     app_store_url: "https://apps.apple.com/app/id6737922796"
     description: "Codifier helps you accurately spell out important information using codewords. Choose from a range of institutional and regional spelling alphabets, save your favorites for quick access, and hear accurate pronunciation for each codeword."
