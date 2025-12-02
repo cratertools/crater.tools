@@ -7,13 +7,13 @@
         <div class="collapse navbar-collapse" id="navbarNav">
             <ul class="navbar-nav ms-auto">
                 <li class="nav-item">
-                    <a href="/calmetric" class="nav-link me-3">Calmetric</a>
+                    <a href="/calmetric" class="nav-link me-3{% if page.app == 'calmetric' %} active{% endif %}">Calmetric</a>
                 </li>
                 <li class="nav-item">
-                    <a href="/conversions" class="nav-link me-3">Conversions</a>
+                    <a href="/conversions" class="nav-link me-3{% if page.app == 'conversions' %} active{% endif %}">Conversions</a>
                 </li>
                 <li class="nav-item">
-                    <a href="/codifier" class="nav-link me-3">Codifier</a>
+                    <a href="/codifier" class="nav-link me-3{% if page.app == 'codifier' %} active{% endif %}">Codifier</a>
                 </li>
                 <li class="nav-item">
                     <a class="nav-link" href="mailto:hello@crater.tools">Contact</a>
