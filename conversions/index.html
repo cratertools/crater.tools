@@ -10,6 +10,14 @@ app: conversions
             <div class="rounded-4 py-4">
                 <div class="row align-items-center">
                     <div class="col-md-6 text-center text-md-start mb-2 mb-md-0">
+                        <picture>
+                            <source srcset="../assets/img/content.dark-conversions-app-logo-1024@1x.png"
+                                    media="(prefers-color-scheme: dark)">
+                            <img src="../assets/img/content.light-conversions-app-logo-1024@1x.png"
+                                 alt="Conversions app icon"
+                                 class="bg-body border border-light-subtle rounded-4 mb-3"
+                                 style="width: 64px"; "height: 64px">
+                         </picture>
                         <h1 class="display-4 fw-bold mb-2">{{ site.data.apps[page.app].name }}</h1>
                         <p class="text-body-secondary lead">{{ site.data.apps[page.app].description }}</p>
                         <a href="{{ site.data.apps[page.app].app_store_url }}" class="btn btn-primary btn-lg rounded-pill mb-4">&#63743; Download</a>
