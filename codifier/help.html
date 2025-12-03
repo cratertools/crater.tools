@@ -5,56 +5,130 @@ app: codifier
 ---
 <div class="container px-4 py-lg-5 my-4">
     <div class="row justify-content-center">
-        <div class="col-md-10 col-xl-8">
 
-            <h1 class="display-5 fw-bold text-center mb-2">Help Center &middot; {{ site.data.apps[page.app].name }}</h1>
+        <div class="col-12 col-xl-10 mb-1 mb-lg-5">
+            <h1 class="display-4 fw-bold text-center mb-2">Help Center &middot; {{ site.data.apps[page.app].name }}</h1>
             <p class="text-body-secondary text-center mb-5">
                 Need a hand with anything? We are here to help.
             </p>
-
-            <h4 class="fw-bold mb-3">FAQs</h4>
-            <dl class="mb-4">
-                <dt class="fs-5 fw-bold">How can I reset my transcription input?</dt>
-                <dd class="text-body-secondary mb-3">You can reset the input by tapping the clear button in the transcription editor.</dd>
-
-                <dt class="fs-5 fw-bold">Where are my favorites stored?</dt>
-                <dd class="text-body-secondary mb-3">Favorites are stored locally on your device and not shared with any server.</dd>
-
-                <dt class="fs-5 fw-bold">How many transcriptions can be saved to favorites?</dt>
-                <dd class="text-body-secondary mb-3">You can save up to 100 favorites.</dd>
-
-                <dt class="fs-5 fw-bold">Can I edit my favorites?</dt>
-                <dd class="text-body-secondary mb-3">It is not yet possible to edit exisiting favorites. But you can copy any saved favorites and paste them into the transcription editor to make changes.</dd>
-
-                <dt class="fs-5 fw-bold">Can I share my transcriptions?</dt>
-                <dd class="text-body-secondary mb-3">Yes, you can use the share button to share transcriptions via text or email.</dd>
-            </dl>
-
-            <h4 class="fw-bold">Troubleshooting</h4>
-            <p class="text-body-secondary mb-4">
-                If you are experiencing problems, try the following steps:
-            </p>
-            <ol class="text-body-secondary mb-4">
-                <li>Ensure your app is updated to the latest version.</li>
-                <li>Restart your device and try again.</li>
-                <li>Check your device&rsquo;s storage and clear space if necessary.</li>
-            </ol>
-
-            <h4 class="fw-bold">Privacy and Data Security</h4>
-            <p class="text-body-secondary mb-4">
-                Codifier does not track or store your data on remote servers. All transcriptions remain on your device for your privacy. For more details please refer to our <a href="/codifier/privacy-policy" class="link-body-emphasis link-offset-2 link-underline-opacity-25 link-underline-opacity-75-hover">Privacy Policy</a>.
-            </p>
-
-            <h4 class="fw-bold">How to Contact Us</h4>
-            <p class="text-body-secondary mb-4">
-                If you have any questions or concerns please email us at <a href="mailto:hello@crater.tools" class="link-body-emphasis link-offset-2 link-underline-opacity-25 link-underline-opacity-75-hover">hello@crater.tools</a>.
-            </p>
-
-            <h4 class="fw-bold">Response Time</h4>
-            <p class="text-body-secondary mb-4">
-                We aim to respond within 5 business days from the receipt of your message.
-            </p>
-
         </div>
+
+        <div class="col-12 col-xl-10 mb-5">
+            <div class="row align-items-center">
+                <div class="col text-center">
+                    <h2 class="display-6 fw-bold mb-5">Frequently Asked Questions</h2>
+                </div>
+            </div>
+
+            <div class="row row-cols-1 row-cols-lg-2 g-3 g-lg-4">
+                <div class="col">
+                    <div class="card h-100 p-2 p-lg-3 rounded-4 bg-body-tertiary border-0">
+                        <div class="card-body">
+                            <i class="ph ph-backspace fs-2 text-style-primary"></i>
+                            <h3 class="card-title fw-bold">How can I reset my transcription input?</h3>
+                            <p class="card-text fs-6 text-body-secondary">You can reset the input by tapping the clear button in the transcription editor.</p>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col">
+                    <div class="card h-100 p-2 p-lg-3 rounded-4 bg-body-tertiary border-0">
+                        <div class="card-body">
+                            <i class="ph ph-floppy-disk fs-2 text-style-primary"></i>
+                            <h3 class="card-title fw-bold">Where are my favorites stored?</h3>
+                            <p class="card-text fs-6 text-body-secondary">Favorites are stored locally on your device and not shared with any server.</p>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col">
+                    <div class="card h-100 p-2 p-lg-3 rounded-4 bg-body-tertiary border-0">
+                        <div class="card-body">
+                            <i class="ph ph-star fs-2 text-style-primary"></i>
+                            <h3 class="card-title fw-bold">How many transcriptions can be saved to favorites?</h3>
+                            <p class="card-text fs-6 text-body-secondary">You can save up to 100 favorites.</p>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col">
+                    <div class="card h-100 p-2 p-lg-3 rounded-4 bg-body-tertiary border-0">
+                        <div class="card-body">
+                            <i class="ph ph-star-half fs-2 text-style-primary"></i>
+                            <h3 class="card-title fw-bold">How can I edit my favorites?</h3>
+                            <p class="card-text fs-6 text-body-secondary">It is not yet possible to edit exisiting favorites. But you can copy any saved favorites and paste them into the transcription editor to make changes.</p>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col">
+                    <div class="card h-100 p-2 p-lg-3 rounded-4 bg-body-tertiary border-0">
+                        <div class="card-body">
+                            <i class="ph ph-share fs-2 text-style-primary"></i>
+                            <h3 class="card-title fw-bold">Can I share my transcriptions?</h3>
+                            <p class="card-text fs-6 text-body-secondary">Yes, you can use the share button to share transcriptions via text or email.</p>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col">
+                    <div class="card h-100 p-2 p-lg-3 rounded-4 bg-body-tertiary border-0">
+                        <div class="card-body">
+                            <i class="ph ph-wifi-high fs-2 text-style-primary"></i>
+                            <h3 class="card-title fw-bold">Does Codifier require internet access?</h3>
+                            <p class="card-text fs-6 text-body-secondary">No, Codifier works completely offline. Internet access is only needed for app updates through the App Store.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="col-12 col-xl-10 mb-5">
+            <div class="row align-items-center">
+                <div class="col text-center">
+                    <h2 class="display-6 fw-bold mb-5">Support</h2>
+                </div>
+            </div>
+
+            <div class="row row-cols-1 row-cols-lg-3 g-3 g-lg-4">
+                <div class="col">
+                    <div class="card h-100 p-2 p-lg-3 rounded-4 bg-body-tertiary border-0">
+                        <div class="card-body">
+                            <i class="ph ph-wrench fs-2 text-style-primary"></i>
+                            <h3 class="card-title fw-bold">Troubleshooting</h3>
+                            <p class="card-text fs-6 text-body-secondary mb-2">If you are experiencing problems, try the following steps:</p>
+                            <ol class="card-text fs-6 text-body-secondary ps-4">
+                                <li>Update app to the latest version.</li>
+                                <li>Restart your device and try again.</li>
+                                <li>Check your storage and clear space if necessary.</li>
+                            </ol>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col">
+                    <div class="card h-100 p-2 p-lg-3 rounded-4 bg-body-tertiary border-0">
+                        <div class="card-body">
+                            <i class="ph ph-lock-simple fs-2 text-style-primary"></i>
+                            <h3 class="card-title fw-bold">Privacy and Data Security</h3>
+                            <p class="card-text fs-6 text-body-secondary">Codifier does not track or store your data on remote servers. All transcriptions remain on your device for your privacy.</p>
+                            <a href="/codifier/privacy-policy" class="card-link link-body-emphasis link-offset-2 link-underline-opacity-25 link-underline-opacity-75-hover">Privacy Policy</a>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col">
+                    <div class="card h-100 p-2 p-lg-3 rounded-4 bg-body-tertiary border-0">
+                        <div class="card-body">
+                            <i class="ph ph-envelope-simple fs-2 text-style-primary"></i>
+                            <h3 class="card-title fw-bold">Contact Us</h3>
+                            <p class="card-text fs-6 text-body-secondary mb-2">If you have any questions or concerns please email us at <a href="mailto:hello@crater.tools" class="link-body-emphasis link-offset-2 link-underline-opacity-25 link-underline-opacity-75-hover">hello@crater.tools</a>.</p>
+                            <p class="card-text fs-6 text-body-secondary mb-0">We aim to respond within 5 business days.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
     </div>
 </div>
