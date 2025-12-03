@@ -3,9 +3,15 @@
     .navbar-toggler[aria-expanded="true"] .ph-list { display: none; }
     .navbar-toggler[aria-expanded="true"] .ph-x { display: inline; }
     .nav-link.active picture img { border-color: var(--bs-secondary) !important; }
+
+    .navbar.sticky-top {
+        backdrop-filter: blur(8px);
+        -webkit-backdrop-filter: blur(8px);
+        background-color: rgba(var(--bs-body-bg-rgb), 0.8) !important;
+    }
 </style>
 
-<nav class="navbar navbar-expand-lg border-bottom">
+<nav class="navbar navbar-expand-lg sticky-top bg-body border-light-subtle border-bottom">
     <div class="container">
         <a class="navbar-brand fw-bold d-flex align-items-center" href="/">
             <svg width="24" height="24" viewBox="0 0 180 180" fill="none" xmlns="http://www.w3.org/2000/svg" class="me-2" aria-hidden="true">
