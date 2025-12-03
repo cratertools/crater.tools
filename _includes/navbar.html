@@ -2,6 +2,7 @@
     .navbar-toggler .ph-x { display: none; }
     .navbar-toggler[aria-expanded="true"] .ph-list { display: none; }
     .navbar-toggler[aria-expanded="true"] .ph-x { display: inline; }
+    .nav-link.active picture img { border-color: var(--bs-secondary) !important; }
 </style>
 
 <nav class="navbar navbar-expand-lg border-bottom">
@@ -14,13 +15,31 @@
         <div class="collapse navbar-collapse" id="navbarNav">
             <ul class="navbar-nav ms-auto">
                 <li class="nav-item">
-                    <a href="/calmetric" class="nav-link me-3{% if page.app == 'calmetric' %} active{% endif %}">Calmetric</a>
+                    <a href="/calmetric" class="nav-link me-3 d-flex align-items-center{% if page.app == 'calmetric' %} active{% endif %}">
+                        <picture style="line-height: 0;">
+                            <source srcset="/assets/img/content.dark-calmetric-app-logo-1024@1x.png" media="(prefers-color-scheme: dark)">
+                            <img src="/assets/img/content.light-calmetric-app-logo-1024@1x.png" alt="" class="border border-light-subtle rounded me-2" style="width: 24px; height: 24px;">
+                        </picture>
+                        Calmetric
+                    </a>
                 </li>
                 <li class="nav-item">
-                    <a href="/conversions" class="nav-link me-3{% if page.app == 'conversions' %} active{% endif %}">Conversions</a>
+                    <a href="/conversions" class="nav-link me-3 d-flex align-items-center{% if page.app == 'conversions' %} active{% endif %}">
+                        <picture style="line-height: 0;">
+                            <source srcset="/assets/img/content.dark-conversions-app-logo-1024@1x.png" media="(prefers-color-scheme: dark)">
+                            <img src="/assets/img/content.light-conversions-app-logo-1024@1x.png" alt="" class="border border-light-subtle rounded me-2" style="width: 24px; height: 24px;">
+                        </picture>
+                        Conversions
+                    </a>
                 </li>
                 <li class="nav-item">
-                    <a href="/codifier" class="nav-link me-3{% if page.app == 'codifier' %} active{% endif %}">Codifier</a>
+                    <a href="/codifier" class="nav-link me-3 d-flex align-items-center{% if page.app == 'codifier' %} active{% endif %}">
+                        <picture style="line-height: 0;">
+                            <source srcset="/assets/img/content.dark-codifier-app-logo-1024@1x.png" media="(prefers-color-scheme: dark)">
+                            <img src="/assets/img/content.light-codifier-app-logo-1024@1x.png" alt="" class="border border-light-subtle rounded me-2" style="width: 24px; height: 24px;">
+                        </picture>
+                        Codifier
+                    </a>
                 </li>
             </ul>
         </div>
