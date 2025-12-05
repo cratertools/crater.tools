@@ -1,0 +1,56 @@
+conversions:
+  - question: "Is there a character limit?"
+    answer: "Yes, there is a limit of 15 significant digits total (combined digits before and after the decimal point) to ensure calculation accuracy."
+
+  - question: "How does rounding work?"
+    answer: "When the &ldquo;Round Results&rdquo; option is enabled, Conversions uses arithmetic rounding to round numbers to the nearest whole number."
+
+  - question: "How does Conversions handle very large numbers?"
+    answer: "Conversion results are displayed in full without any decimal places when they&rsquo;re whole numbers, and with up to 12 decimal places when they include a fractional part."
+
+  - question: "How does Conversions handle very small numbers?"
+    answer: "Conversions shows up to 12 decimal places for precise results. For numbers smaller than 0.000000000001 Conversions returns &ldquo;&asymp; 0&rdquo; (approximately zero) to indicate that the actual number is very small but non-zero."
+
+  - question: "Can I use scientific notation?"
+    answer: "Currently, scientific notation is supported for numbers up to 15 digits long (for example 1.23E+14)."
+
+  - question: "Can I share my conversions?"
+    answer: "Yes, you can share your conversions via text or email using the Share options in the toolbar menu."
+
+calmetric:
+  - question: "How does Calmetric count days in a date range?"
+    answer: "When counting days in a date range, Calmetric uses inclusive counting, meaning both the start and end dates are included in the total."
+
+  - question: "What&rsquo;s the difference between &ldquo;day&rdquo; and &ldquo;night&rdquo; counts?"
+    answer: "Day count is the total number of calendar days including both start and end dates. Night count is the number of overnight stays, which is always one fewer than the number of days."
+
+  - question: "How can I see the distribution of specific weekdays?"
+    answer: "Yes, in the Date Picker view, you can toggle &ldquo;Show Weekday Distribution&rdquo; in the toolbar menu to see how many Mondays, Tuesdays, etc. are in your selected date range."
+
+  - question: "Do I need an account to use Calmetric?"
+    answer: "No, Calmetric does not require an account."
+
+  - question: "Can I share metrics from the app?"
+    answer: "Yes, you can share the metrics for any given date or date range via text or email using the Share options in the toolbar menu."
+
+  - question: "Does Calmetric require internet access?"
+    answer: "No, Calmetric works completely offline. Internet access is only needed for app updates through the App Store."
+
+codifier:
+  - question: "How can I reset my transcription input?"
+    answer: "You can reset the input by tapping the clear button in the transcription editor."
+
+  - question: "Where are my favorites stored?"
+    answer: "Favorites are stored locally on your device and not shared with any server."
+
+  - question: "How many transcriptions can be saved to favorites?"
+    answer: "You can save up to 100 favorites."
+
+  - question: "How can I edit my favorites?"
+    answer: "It is not yet possible to edit exisiting favorites. But you can copy any saved favorites and paste them into the transcription editor to make changes."
+
+  - question: "Can I share my transcriptions?"
+    answer: "Yes, you can use the share button to share transcriptions via text or email."
+
+  - question: "Does Codifier require internet access?"
+    answer: "No, Codifier works completely offline. Internet access is only needed for app updates through the App Store."

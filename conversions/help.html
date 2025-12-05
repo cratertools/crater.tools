@@ -21,65 +21,9 @@ app: conversions
             </div>
 
             <div class="row row-cols-1 row-cols-lg-2 g-3 g-lg-4">
-                <div class="col">
-                    <div class="card h-100 p-2 p-lg-3 rounded-4 bg-body-tertiary border-0">
-                        <div class="card-body">
-                            <i class="ph ph-textbox fs-2 text-style-primary"></i>
-                            <h4 class="card-title">Is there a character limit?</h4>
-                            <p class="card-text fs-6 text-body-secondary">Yes, there is a limit of 15 significant digits total (combined digits before and after the decimal point) to ensure calculation accuracy.</p>
-                        </div>
-                    </div>
-                </div>
-
-                <div class="col">
-                    <div class="card h-100 p-2 p-lg-3 rounded-4 bg-body-tertiary border-0">
-                        <div class="card-body">
-                            <i class="ph ph-dots-three-circle fs-2 text-style-primary"></i>
-                            <h4 class="card-title">How does rounding work?</h4>
-                            <p class="card-text fs-6 text-body-secondary">When the &ldquo;Round Results&rdquo; option is enabled, Conversions uses arithmetic rounding to round numbers to the nearest whole number.</p>
-                        </div>
-                    </div>
-                </div>
-
-                <div class="col">
-                    <div class="card h-100 p-2 p-lg-3 rounded-4 bg-body-tertiary border-0">
-                        <div class="card-body">
-                            <i class="ph ph-arrow-circle-up fs-2 text-style-primary"></i>
-                            <h4 class="card-title">How does Conversions handle very large numbers?</h4>
-                            <p class="card-text fs-6 text-body-secondary">Conversion results are displayed in full without any decimal places when they&rsquo;re whole numbers, and with up to 12 decimal places when they include a fractional part.</p>
-                        </div>
-                    </div>
-                </div>
-
-                <div class="col">
-                    <div class="card h-100 p-2 p-lg-3 rounded-4 bg-body-tertiary border-0">
-                        <div class="card-body">
-                            <i class="ph ph-arrow-circle-down fs-2 text-style-primary"></i>
-                            <h4 class="card-title">How does Conversions handle very small numbers?</h4>
-                            <p class="card-text fs-6 text-body-secondary">Conversions shows up to 12 decimal places for precise results. For numbers smaller than 0.000000000001 Conversions returns &ldquo;&asymp; 0&rdquo; (approximately zero) to indicate that the actual number is very small but non-zero.</p>
-                        </div>
-                    </div>
-                </div>
-
-                <div class="col">
-                    <div class="card h-100 p-2 p-lg-3 rounded-4 bg-body-tertiary border-0">
-                        <div class="card-body">
-                            <i class="ph ph-atom fs-2 text-style-primary"></i>
-                            <h4 class="card-title">Can I use scientific notation?</h4>
-                            <p class="card-text fs-6 text-body-secondary">Currently, scientific notation is supported for numbers up to 15 digits long (for example 1.23E+14).</p>
-                        </div>
-                    </div>
-                </div>
-
-                <div class="col">
-                    <div class="card h-100 p-2 p-lg-3 rounded-4 bg-body-tertiary border-0">
-                        <div class="card-body">
-                            <i class="ph ph-share fs-2 text-style-primary"></i>
-                            <h4 class="card-title">Can I share my conversions?</h4>
-                            <p class="card-text fs-6 text-body-secondary">Yes, you can share your conversions via text or email using the Share options in the toolbar menu.</p>
-                        </div>
-                    </div>
-                </div>
+                {% for faq in site.data.faqs[page.app] %}
+                    {% include faq-card.html question=faq.question answer=faq.answer %}
+                {% endfor %}
             </div>
         </div>
 

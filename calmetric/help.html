@@ -21,65 +21,9 @@ app: calmetric
             </div>
 
             <div class="row row-cols-1 row-cols-lg-2 g-3 g-lg-4">
-                <div class="col">
-                    <div class="card h-100 p-2 p-lg-3 rounded-4 bg-body-tertiary border-0">
-                        <div class="card-body">
-                            <i class="ph ph-calendar-dots fs-2 text-style-primary"></i>
-                            <h4 class="card-title">How does Calmetric count days in a date range?</h4>
-                            <p class="card-text fs-6 text-body-secondary">When counting days in a date range, Calmetric uses inclusive counting, meaning both the start and end dates are included in the total.</p>
-                        </div>
-                    </div>
-                </div>
-
-                <div class="col">
-                    <div class="card h-100 p-2 p-lg-3 rounded-4 bg-body-tertiary border-0">
-                        <div class="card-body">
-                            <i class="ph-fill ph-circle-half fs-2 text-style-primary"></i>
-                            <h4 class="card-title">What&rsquo;s the difference between &ldquo;day&rdquo; and &ldquo;night&rdquo; counts?</h4>
-                            <p class="card-text fs-6 text-body-secondary">Day count is the total number of calendar days including both start and end dates. Night count is the number of overnight stays, which is always one fewer than the number of days.</p>
-                        </div>
-                    </div>
-                </div>
-
-                <div class="col">
-                    <div class="card h-100 p-2 p-lg-3 rounded-4 bg-body-tertiary border-0">
-                        <div class="card-body">
-                            <i class="ph ph-list-bullets fs-2 text-style-primary"></i>
-                            <h4 class="card-title">How can I see the distribution of specific weekdays?</h4>
-                            <p class="card-text fs-6 text-body-secondary">Yes, in the Date Picker view, you can toggle &ldquo;Show Weekday Distribution&rdquo; in the toolbar menu to see how many Mondays, Tuesdays, etc. are in your selected date range.</p>
-                        </div>
-                    </div>
-                </div>
-
-                <div class="col">
-                    <div class="card h-100 p-2 p-lg-3 rounded-4 bg-body-tertiary border-0">
-                        <div class="card-body">
-                            <i class="ph ph-user-circle fs-2 text-style-primary"></i>
-                            <h4 class="card-title">Do I need an account to use Calmetric?</h4>
-                            <p class="card-text fs-6 text-body-secondary">No, Calmetric does not require an account.</p>
-                        </div>
-                    </div>
-                </div>
-
-                <div class="col">
-                    <div class="card h-100 p-2 p-lg-3 rounded-4 bg-body-tertiary border-0">
-                        <div class="card-body">
-                            <i class="ph ph-share fs-2 text-style-primary"></i>
-                            <h4 class="card-title">Can I share metrics from the app?</h4>
-                            <p class="card-text fs-6 text-body-secondary">Yes, you can share the metrics for any given date or date range via text or email using the Share options in the toolbar menu.</p>
-                        </div>
-                    </div>
-                </div>
-
-                <div class="col">
-                    <div class="card h-100 p-2 p-lg-3 rounded-4 bg-body-tertiary border-0">
-                        <div class="card-body">
-                            <i class="ph ph-wifi-high fs-2 text-style-primary"></i>
-                            <h4 class="card-title">Does Calmetric require internet access?</h4>
-                            <p class="card-text fs-6 text-body-secondary">No, Calmetric works completely offline. Internet access is only needed for app updates through the App Store.</p>
-                        </div>
-                    </div>
-                </div>
+                {% for faq in site.data.faqs[page.app] %}
+                    {% include faq-card.html question=faq.question answer=faq.answer %}
+                {% endfor %}
             </div>
         </div>
 
