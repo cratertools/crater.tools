@@ -1,0 +1,38 @@
+{% assign app_data = site.data.apps[include.app] %}
+<div class="card p-3 p-lg-4 rounded-4 bg-body-tertiary border-0">
+    <div class="card-body">
+        <div class="row row-cols-1 row-cols-md-2 g-3">
+            <div class="col">
+                <dl class="mb-0">
+                    <dt class="text-body-secondary small fw-light">Platform</dt>
+                    <dd class="mb-3">{{ app_data.info.platform }}</dd>
+
+                    <dt class="text-body-secondary small fw-light">Price</dt>
+                    <dd class="mb-3">{{ app_data.info.price }}</dd>
+
+                    <dt class="text-body-secondary small fw-light">Version</dt>
+                    <dd class="mb-3">{{ app_data.info.version }}</dd>
+
+                    <dt class="text-body-secondary small fw-light">Size</dt>
+                    <dd class="mb-0">{{ app_data.info.size }}</dd>
+                </dl>
+            </div>
+
+            <div class="col">
+                <dl class="mb-0">
+                    <dt class="text-body-secondary small fw-light">Age Rating</dt>
+                    <dd class="mb-3">{{ app_data.info.age_rating }}</dd>
+
+                    <dt class="text-body-secondary small fw-light">Language(s)</dt>
+                    <dd class="mb-3">{{ app_data.info.languages }}</dd>
+
+                    <dt class="text-body-secondary small fw-light">Tech Stack</dt>
+                    <dd class="mb-3">{{ app_data.info.stack }}</dd>
+
+                    <dt class="text-body-secondary small fw-light">Compatibility</dt>
+                    <dd class="mb-0">{{ app_data.info.compatibility }}</dd>
+                </dl>
+            </div>
+        </div>
+    </div>
+</div>
