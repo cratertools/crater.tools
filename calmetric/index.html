@@ -44,45 +44,9 @@ app: calmetric
             </div>
 
             <div class="row row-cols-1 row-cols-sm-2 row-cols-lg-2 g-3 g-lg-4">
-                <div class="col">
-                    <div class="card h-100 p-2 p-lg-3 rounded-4 bg-body-tertiary border-0">
-                        <div class="card-body">
-                            <i class="ph ph-hourglass-medium fs-2 text-style-primary"></i>
-                            <h3 class="card-title fw-bold">Track Year’s Progress</h3>
-                            <p class="card-text fs-6 text-body-secondary">See the year’s progress with detailed charts and metrics.</p>
-                        </div>
-                    </div>
-                </div>
-
-                <div class="col">
-                    <div class="card h-100 p-2 p-lg-3 rounded-4 bg-body-tertiary border-0">
-                        <div class="card-body">
-                            <i class="ph ph-calendar-dots fs-2 text-style-primary"></i>
-                            <h3 class="card-title fw-bold">Explore Timeframes</h3>
-                            <p class="card-text fs-6 text-body-secondary">Break down any date range into days, nights, weekends, and more.</p>
-                        </div>
-                    </div>
-                </div>
-
-                <div class="col">
-                    <div class="card h-100 p-2 p-lg-3 rounded-4 bg-body-tertiary border-0">
-                        <div class="card-body">
-                            <i class="ph ph-map-trifold fs-2 text-style-primary"></i>
-                            <h3 class="card-title fw-bold">Plan Better</h3>
-                            <p class="card-text fs-6 text-body-secondary">Identify optimal dates for vacations, meetings, and deadlines.</p>
-                        </div>
-                    </div>
-                </div>
-
-                <div class="col">
-                    <div class="card h-100 p-2 p-lg-3 rounded-4 bg-body-tertiary border-0">
-                        <div class="card-body">
-                            <i class="ph ph-apple-logo fs-2 text-style-primary"></i>
-                            <h3 class="card-title fw-bold">Built for iOS</h3>
-                            <p class="card-text fs-6 text-body-secondary">Native iOS design, using Apple’s latest frameworks and UI guidelines.</p>
-                        </div>
-                    </div>
-                </div>
+                {% for feature in site.data.apps[page.app].features %}
+                    {% include feature-card.html icon=feature.icon title=feature.title description=feature.description %}
+                {% endfor %}
             </div>
         </div>
 

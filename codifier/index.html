@@ -44,45 +44,9 @@ app: codifier
             </div>
 
             <div class="row row-cols-1 row-cols-sm-2 row-cols-lg-2 g-3 g-lg-4">
-                <div class="col">
-                    <div class="card h-100 p-2 p-lg-3 rounded-4 bg-body-tertiary border-0">
-                        <div class="card-body">
-                            <i class="ph ph-textbox fs-2 text-style-primary"></i>
-                            <h3 class="card-title fw-bold">Get Code Words</h3>
-                            <p class="card-text fs-6 text-body-secondary">Transcribe any text into code words.</p>
-                        </div>
-                    </div>
-                </div>
-
-                <div class="col">
-                    <div class="card h-100 p-2 p-lg-3 rounded-4 bg-body-tertiary border-0">
-                        <div class="card-body">
-                            <i class="ph ph-star fs-2 text-style-primary"></i>
-                            <h3 class="card-title fw-bold">Save Favorites</h3>
-                            <p class="card-text fs-6 text-body-secondary">Keep up to 100 favorites for quick access.</p>
-                        </div>
-                    </div>
-                </div>
-
-                <div class="col">
-                    <div class="card h-100 p-2 p-lg-3 rounded-4 bg-body-tertiary border-0">
-                        <div class="card-body">
-                            <i class="ph ph-waveform fs-2 text-style-primary"></i>
-                            <h3 class="card-title fw-bold">Hear Pronunciations</h3>
-                            <p class="card-text fs-6 text-body-secondary">Listen to correct pronunciation of each code word.</p>
-                        </div>
-                    </div>
-                </div>
-
-                <div class="col">
-                    <div class="card h-100 p-2 p-lg-3 rounded-4 bg-body-tertiary border-0">
-                        <div class="card-body">
-                            <i class="ph ph-apple-logo fs-2 text-style-primary"></i>
-                            <h3 class="card-title fw-bold">Built for iOS</h3>
-                            <p class="card-text fs-6 text-body-secondary">Native iOS design, using Apple’s latest frameworks and UI guidelines.</p>
-                        </div>
-                    </div>
-                </div>
+                {% for feature in site.data.apps[page.app].features %}
+                    {% include feature-card.html icon=feature.icon title=feature.title description=feature.description %}
+                {% endfor %}
             </div>
         </div>
 
