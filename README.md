@@ -21,18 +21,7 @@ All HTML files in this project follow these blank line formatting rules:
 </div>
 ```
 
-**3. Blank lines between sibling containers**
-```html
-<div class="col">
-    <div class="card">...</div>
-</div>
-
-<div class="col">
-    <div class="card">...</div>
-</div>
-```
-
-**4. Blank lines between major sections**
+**3. Blank lines between major sections**
 ```html
 <div class="col-12 mb-5">
     <!-- Features section -->
@@ -41,15 +30,4 @@ All HTML files in this project follow these blank line formatting rules:
 <div class="col-12 mb-5">
     <!-- Screenshots section -->
 </div>
-```
-
-**5. Definition lists: blank lines between pairs, not within**
-```html
-<dl>
-    <dt>Platform</dt>
-    <dd>iOS</dd>
-
-    <dt>Price</dt>
-    <dd>Free</dd>
-</dl>
 ```
