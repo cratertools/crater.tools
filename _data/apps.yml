@@ -6,8 +6,8 @@ calmetric:
     info:
         platform: "iOS"
         price: "Free"
-        version: "1.0"
-        size: "649.2 KB"
+        version: "1.1"
+        size: "3.6 MB"
         stack: "Swift, SwiftUI"
         age_rating: "4+"
         languages: "English"
@@ -24,7 +24,7 @@ calmetric:
           description: "Identify optimal dates for vacations, meetings, and deadlines."
         - icon: "ph-apple-logo"
           title: "Built for iOS"
-          description: "Native iOS design, using Apple's latest frameworks and UI guidelines."
+          description: "Native iOS design, using Apple’s latest frameworks and UI guidelines."
 
 conversions:
     name: "Conversions"
@@ -34,8 +34,8 @@ conversions:
     info:
         platform: "iOS"
         price: "Free"
-        version: "1.0.7"
-        size: "901.1 KB"
+        version: "1.1"
+        size: "2.7 MB"
         stack: "Swift, SwiftUI"
         age_rating: "4+"
         languages: "English"
@@ -52,7 +52,7 @@ conversions:
           description: "Look up unit symbols, systems, and conversion formulas."
         - icon: "ph-apple-logo"
           title: "Built for iOS"
-          description: "Native iOS design, using Apple's latest frameworks and UI guidelines."
+          description: "Native iOS design, using Apple’s latest frameworks and UI guidelines."
 
 codifier:
     name: "Codifier"
@@ -80,4 +80,4 @@ codifier:
           description: "Listen to correct pronunciation of each code word."
         - icon: "ph-apple-logo"
           title: "Built for iOS"
-          description: "Native iOS design, using Apple's latest frameworks and UI guidelines."
+          description: "Native iOS design, using Apple’s latest frameworks and UI guidelines."
