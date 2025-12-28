@@ -44,7 +44,7 @@ codifier:
     answer: "Favorites are stored locally on your device and not shared with any server."
 
   - question: "How many transcriptions can be saved to favorites?"
-    answer: "You can save up to 100 favorites."
+    answer: "You can save up to 10 favorites."
 
   - question: "How can I edit my favorites?"
     answer: "It is not yet possible to edit exisiting favorites. But you can copy any saved favorites and paste them into the transcription editor to make changes."
