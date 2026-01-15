@@ -37,6 +37,12 @@ calmetric:
     answer: "No, Calmetric works completely offline. Internet access is only needed for app updates through the App Store."
 
 codifier:
+  - question: "Which spelling alphabets are included?"
+    answer: "Institutional spelling alphabets include ICAO/NATO, LAPD, Able-Baker, AT&T, British Post Office, DIN 5009. Regional alphabets include Czech, Dutch, Finnish, French, German, Italian, Polish, Portuguese, Spanish, Swedish, U.S., and U.K."
+
+  - question: "Can Codifier transcribe other any characters than letters?"
+    answer: "Codifier transcribes also numbers, punctuation marks, currency symbols, and emojis. Emoji transcriptions are only available in English and cannot be saved to favorites, though."
+
   - question: "How can I reset my transcription input?"
     answer: "You can reset the input by tapping the clear button in the transcription editor."
 
