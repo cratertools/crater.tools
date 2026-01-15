@@ -6,7 +6,7 @@ calmetric:
     info:
         platform: "iOS"
         price: "Free"
-        version: "1.1"
+        version: "1.1.1"
         size: "3.6 MB"
         stack: "Swift, SwiftUI"
         age_rating: "4+"
@@ -62,7 +62,7 @@ codifier:
     info:
         platform: "iOS"
         price: "Free"
-        version: "1.1"
+        version: "1.1.2"
         size: "3.8 MB"
         stack: "Swift, SwiftUI"
         age_rating: "4+"
