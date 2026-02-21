@@ -6,8 +6,8 @@ calmetric:
     info:
         platform: "iOS"
         price: "Free"
-        version: "1.1.1"
-        size: "3.6 MB"
+        version: "1.2"
+        size: "3.7 MB"
         stack: "Swift, SwiftUI"
         age_rating: "4+"
         languages: "English"
