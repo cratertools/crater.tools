@@ -56,7 +56,7 @@ codifier:
     answer: "You can save up to 10 favorites."
 
   - question: "How can I edit my favorites?"
-    answer: "It is not yet possible to edit exisiting favorites. But you can copy any saved favorites and paste them into the transcription editor to make changes."
+    answer: "Open a saved favorite and tap the Edit button in the top right corner."
 
   - question: "How can I hear how codewords are pronounced?"
     answer: "Tap the speaker icon next to any codeword in the Alphabets section to hear its pronunciation."
