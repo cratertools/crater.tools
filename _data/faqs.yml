@@ -24,14 +24,26 @@ calmetric:
   - question: "What&rsquo;s the difference between &ldquo;day&rdquo; and &ldquo;night&rdquo; counts?"
     answer: "Day count is the total number of calendar days including both start and end dates. Night count is the number of overnight stays, which is always one fewer than the number of days."
 
-  - question: "How can I see the distribution of specific weekdays?"
-    answer: "Yes, in the Date Picker view, you can toggle &ldquo;Show Weekday Distribution&rdquo; in the toolbar menu to see how many Mondays, Tuesdays, etc. are in your selected date range."
+  - question: "How does Calmetric count weekends?"
+    answer: "A weekend is a complete Saturday and Sunday pair, so a count like &ldquo;Weekends left&rdquo; includes only full weekends. Saturdays or Sundays at the edge of a range aren&rsquo;t included in the count."
 
-  - question: "Do I need an account to use Calmetric?"
-    answer: "No, Calmetric does not require an account."
+  - question: "How can I see the distribution of specific weekdays?"
+    answer: "In the Date Picker view, you can toggle &ldquo;Show Weekday Distribution&rdquo; in the toolbar menu to see how many Mondays, Tuesdays, etc. fall in your selected date range."
+
+  - question: "How can I see more detail for a specific time period?"
+    answer: "On the Today screen, tap any period card to open a detailed view with a progress chart, a full breakdown of its metrics, and a share option."
+
+  - question: "Can I view metrics for a date other than today?"
+    answer: "Yes. Tap the calendar button in the Today tab to pick any date and preview the year’s progress for that day. Tap the revert button or choose today&rsquo;s date to return to the current date."
+
+  - question: "Can I add a date range to my calendar?"
+    answer: "Yes. In the Date Picker, open the Options menu and choose &ldquo;Add to Calendar&rdquo; to save your selected date range as an all-day event. Calmetric only adds events you create &mdash; it never reads your existing calendar."
 
   - question: "Can I share metrics from the app?"
     answer: "Yes, you can share the metrics for any given date or date range via text or email using the Share options in the toolbar menu."
+
+  - question: "Do I need an account to use Calmetric?"
+    answer: "No, Calmetric does not require an account."
 
   - question: "Does Calmetric require internet access?"
     answer: "No, Calmetric works completely offline. Internet access is only needed for app updates through the App Store."
