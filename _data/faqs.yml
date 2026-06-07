@@ -9,7 +9,7 @@ conversions:
     answer: "Conversion results are displayed in full without any decimal places when they&rsquo;re whole numbers, and with up to 12 decimal places when they include a fractional part."
 
   - question: "How does Conversions handle very small numbers?"
-    answer: "Conversions shows up to 12 decimal places for precise results. For numbers smaller than 0.000000000001 Conversions returns &ldquo;&asymp; 0&rdquo; (approximately zero) to indicate that the actual number is very small but non-zero."
+    answer: "Conversions shows up to 12 decimal places for precise results. For numbers smaller than 0.0000000001 Conversions returns &ldquo;&asymp; 0&rdquo; (approximately zero) to indicate that the actual number is very small but non-zero."
 
   - question: "Can I use scientific notation?"
     answer: "Currently, scientific notation is supported for numbers up to 15 digits long (for example 1.23E+14)."
