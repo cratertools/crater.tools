@@ -38,7 +38,7 @@ calmetric:
 
 codifier:
   - question: "Can Codifier transcribe characters other than letters?"
-    answer: "Yes, Codifier also transcribes numbers, punctuation marks, currency symbols, and emojis. You can enable or disable each character type in Settings."
+    answer: "Yes, Codifier also transcribes numbers, punctuation marks, currency symbols, and spaces. You can turn each of these on or off in Settings, under Transcription."
 
   - question: "Why aren’t punctuation marks or spaces showing in my transcription?"
     answer: "By default, only letters and numbers are transcribed. You can enable punctuation, currency symbols, and spaces in Settings under Transcription."
