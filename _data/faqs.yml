@@ -1,5 +1,5 @@
 conversions:
-  - question: "Is there a character limit?"
+  - question: "Is there a digit limit?"
     answer: "Yes, there is a limit of 15 significant digits total (combined digits before and after the decimal point) to ensure calculation accuracy."
 
   - question: "How does rounding work?"
@@ -12,10 +12,22 @@ conversions:
     answer: "Conversions shows up to 12 decimal places for precise results. For numbers smaller than 0.0000000001 Conversions returns &ldquo;&asymp; 0&rdquo; (approximately zero) to indicate that the actual number is very small but non-zero."
 
   - question: "Can I use scientific notation?"
-    answer: "Currently, scientific notation is supported for numbers up to 15 digits long (for example 1.23E+14)."
+    answer: "Scientific notation is recognized for numbers up to 15 significant digits (for example 1.23E+14). You can paste it in or use a hardware keyboard for input."
+
+  - question: "What gets saved to History?"
+    answer: "Conversions are recorded automatically whenever you make any changes to your conversions and leave the Convert screen. Favoriting a conversion records it right away."
+
+  - question: "Where are my Favorites and History stored?"
+    answer: "Both are stored locally on your device and never sent to any server. They aren&rsquo;t synced between devices, and they&rsquo;re removed if you delete the app."
+
+  - question: "How many conversions can be saved?"
+    answer: "You can save up to 25 favorites. History holds your 100 most recent conversions, and once it&rsquo;s full the oldest entries get replaced with new ones. Favorites are exempt and don&rsquo;t count toward the History limit."
 
   - question: "Can I share my conversions?"
     answer: "Yes, you can share your conversions via text or email using the Share options in the toolbar menu."
+
+  - question: "Does Conversions require internet access?"
+    answer: "No, Conversions works completely offline. Internet access is only needed for app updates through the App Store."
 
 calmetric:
   - question: "How does Calmetric count days in a date range?"
