@@ -6,12 +6,12 @@ calmetric:
     info:
         platform: "iOS"
         price: "Free"
-        version: "1.3.0"
+        version: "1.4.0"
         size: "3.8 MB"
         stack: "Swift, SwiftUI"
         age_rating: "4+"
         languages: "English"
-        compatibility: "iOS 17.6 or later"
+        compatibility: "iOS 18.6 or later"
     features:
         - icon: "ph-hourglass-medium"
           title: "Track Year’s Progress"
