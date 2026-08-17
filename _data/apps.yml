@@ -68,7 +68,7 @@ codifier:
     info:
         platform: "iOS"
         price: "Free"
-        version: "1.4.0"
+        version: "1.4.1"
         size: "3.9 MB"
         stack: "Swift, SwiftUI"
         age_rating: "4+"
