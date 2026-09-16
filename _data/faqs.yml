@@ -40,16 +40,22 @@ calmetric:
     answer: "A weekend is a complete Saturday and Sunday pair, so a count like &ldquo;Weekends left&rdquo; includes only full weekends. Saturdays or Sundays at the edge of a range aren&rsquo;t included in the count."
 
   - question: "How can I see the distribution of specific weekdays?"
-    answer: "In the Date Picker view, you can toggle &ldquo;Show Weekday Distribution&rdquo; in the toolbar menu to see how many Mondays, Tuesdays, etc. fall in your selected date range."
+    answer: "In the Planner, open the Options menu in the toolbar and choose &ldquo;Show&hellip;&rdquo; &rarr; &ldquo;Weekday Distribution&rdquo; to see how many Mondays, Tuesdays, etc. fall in your selected date range."
+
+  - question: "How can I adjust a date range by nights or weeks instead of days?"
+    answer: "In the Planner, open the Options menu in the toolbar and choose nights or weeks from the &ldquo;Iterate by&rdquo; menu."
+
+  - question: "Can I see progress counts in weeks instead of days?"
+    answer: "Yes. In the Today tab, pick a custom date and tap the counter to switch between days and weeks. In the Planner, tap the Progress row to do the same."
 
   - question: "How can I see more detail for a specific time period?"
-    answer: "On the Today screen, tap any period card to open a detailed view with a progress chart, a full breakdown of its metrics, and a share option."
+    answer: "In the Today tab, select any period card to open a detailed view with a progress chart, a full breakdown of its metrics, and a share option."
 
   - question: "Can I view metrics for a date other than today?"
     answer: "Yes. Tap the calendar button in the Today tab to pick any date and preview the year’s progress for that day. Tap the revert button or choose today&rsquo;s date to return to the current date."
 
   - question: "Can I add a date range to my calendar?"
-    answer: "Yes. In the Date Picker, open the Options menu and choose &ldquo;Add to Calendar&rdquo; to save your selected date range as an all-day event. Calmetric only adds events you create &mdash; it never reads your existing calendar."
+    answer: "Yes. In the Planner, open the Options menu in the toolbar and choose &ldquo;Add to Calendar&rdquo; to save your selected date range as an all-day event. Calmetric only adds events you create &mdash; it never reads your existing calendar."
 
   - question: "Can I share metrics from the app?"
     answer: "Yes, you can share the metrics for any given date or date range via text or email using the Share options in the toolbar menu."
