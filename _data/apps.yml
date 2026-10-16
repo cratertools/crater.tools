@@ -6,8 +6,8 @@ calmetric:
     info:
         platform: "iOS"
         price: "Free"
-        version: "1.5.0"
-        size: "3.9 MB"
+        version: "1.6.0"
+        size: "6 MB"
         stack: "Swift, SwiftUI"
         age_rating: "4+"
         languages: "English"
@@ -34,8 +34,8 @@ conversions:
     info:
         platform: "iOS"
         price: "Free"
-        version: "1.3.1"
-        size: "3.1 MB"
+        version: "1.3.3"
+        size: "5.9 MB"
         stack: "Swift, SwiftUI"
         age_rating: "4+"
         languages: "English"
@@ -68,8 +68,8 @@ codifier:
     info:
         platform: "iOS"
         price: "Free"
-        version: "1.4.1"
-        size: "3.9 MB"
+        version: "1.4.3"
+        size: "6.4 MB"
         stack: "Swift, SwiftUI"
         age_rating: "4+"
         languages: "English"
